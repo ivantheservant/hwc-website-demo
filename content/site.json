@@ -1,0 +1,208 @@
+{
+  "_說明": "中英文共用的資料。每項的 zh 是中文、en 是英文。demo: true 表示教會未提供、由示範文字代替。",
+
+  "church": {
+    "zh": "中國佈道會奧克蘭聖道堂",
+    "zh_short": "奧克蘭聖道堂",
+    "en": "ECF Holy Word Church of Auckland",
+    "en_short": "Holy Word Church"
+  },
+
+  "theme": {
+    "_來源": "文字取自現有網站入口頁的圖片（2026-05-04 上載），未確認是否本年度主題；按決定只在 B 款首屏使用，並標明示範內容",
+    "zh": "愛裏同行，活現基督",
+    "en": "Together in love, Living out Christ"
+  },
+
+  "contact": {
+    "address": "2 Basalt Place, East Tamaki, Auckland",
+    "phone": "(09) 271 1608",
+    "email": "hwc@holywordchurch.org.nz",
+    "office": { "zh": "每逢星期一休息", "en": "Office close every Monday" },
+    "facebook": {
+      "zh": "https://www.facebook.com/holywordchurch",
+      "en": "https://www.facebook.com/HWCEnglish"
+    },
+    "facebook_label": { "zh": "facebook.com/holywordchurch", "en": "facebook.com/HWCEnglish" },
+    "map_embed": "https://www.google.com/maps?q=2+Basalt+Place,+East+Tamaki,+Auckland&output=embed",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=2+Basalt+Place,+East+Tamaki,+Auckland"
+  },
+
+  "external": {
+    "visitor_form": "https://holywordchurch.org.nz/visitor-form",
+    "sermons": {
+      "zh": "https://www.facebook.com/holywordchurch/videos/",
+      "en": "https://www.facebook.com/HWCEnglish/videos"
+    },
+    "photos": {
+      "zh": "https://www.facebook.com/holywordchurch/photos/",
+      "en": "https://www.facebook.com/HWCEnglish/photos/"
+    },
+    "bulletin_zh_pdf": "https://drive.google.com/file/d/1kX_Fff5-Imo_WpvzjGNbXekRfUHe4m__/preview",
+    "bulletin_en_blog": "https://holywordchurch.org.nz/bulletin"
+  },
+
+  "services": [
+    {
+      "id": "english",
+      "lang": { "zh": "英語", "en": "English" },
+      "time": "9:00 AM",
+      "place": { "zh": "2 Basalt Place, East Tamaki", "en": "2 Basalt Place, East Tamaki" },
+      "link": "services"
+    },
+    {
+      "id": "cantonese",
+      "lang": { "zh": "粵語", "en": "Cantonese" },
+      "time": "10:45 AM",
+      "place": { "zh": "2 Basalt Place, East Tamaki", "en": "2 Basalt Place, East Tamaki" },
+      "link": "services"
+    },
+    {
+      "id": "mandarin",
+      "lang": { "zh": "華語", "en": "Mandarin" },
+      "time": "2:30 PM",
+      "place": { "zh": "2 Basalt Place, East Tamaki", "en": "2 Basalt Place, East Tamaki" },
+      "link": "services"
+    },
+    {
+      "id": "northshore",
+      "lang": { "zh": "粵語（北岸）", "en": "Cantonese (North Shore)" },
+      "time": "3:30 PM",
+      "place": { "zh": "地點見「北岸事工」", "en": "See North Shore page for venue" },
+      "link": "northshore"
+    }
+  ],
+
+  "announcement": {
+    "demo": true,
+    "zh": "聖誕聯合崇拜：12 月 25 日上午 10:30，當日各堂崇拜合併舉行。",
+    "en": "Combined Christmas Service: 25 December, 10:30 AM. All congregations meet together that day."
+  },
+
+  "news": [
+    {
+      "demo": true,
+      "date": "2026-11-15",
+      "zh": { "title": "聖誕聯合崇拜", "text": "12 月 25 日上午 10:30 舉行三語聯合崇拜，崇拜後設愛筵，歡迎邀請親友參加。" },
+      "en": { "title": "Combined Christmas Service", "text": "Join us on 25 December at 10:30 AM for a combined service in three languages, followed by a shared lunch. Friends and family are welcome." }
+    },
+    {
+      "demo": true,
+      "date": "2026-11-08",
+      "zh": { "title": "下屆浸禮班接受報名", "text": "新一期浸禮班將於明年 2 月開課，共 8 堂。有意參加的弟兄姊妹請向所屬堂會的牧者報名。" },
+      "en": { "title": "Baptism Class Enrolment", "text": "The next baptism class starts in February and runs for 8 sessions. Please speak to the pastor of your congregation to enrol." }
+    },
+    {
+      "demo": true,
+      "date": "2026-11-01",
+      "zh": { "title": "夏令營籌備中", "text": "明年 1 月的教會夏令營正在籌備，詳情及報名方法稍後在週報公佈。" },
+      "en": { "title": "Summer Camp in Planning", "text": "Our church summer camp is planned for January. Details and registration will be announced in the bulletin." }
+    }
+  ],
+
+  "latest_sermon": {
+    "zh": { "demo": true, "title": "在基督裏合一", "speaker": "講員：本堂牧者", "date": "2026-11-15", "scripture": "以弗所書 4:1-6" },
+    "en": { "demo": false, "title": "The Life of the Beloved (4) - Given", "speaker": "Speaker: Herman Yeung", "date": "2026-11-15", "scripture": "Luke 22:19" }
+  },
+
+  "labels": {
+    "zh": {
+      "demo_bar": "示範網站 Demo",
+      "demo_bar_note": "並非聖道堂正式網站",
+      "demo_tag": "示範內容",
+      "photo_omitted": "相片從略",
+      "demo_page": "本頁是示範內容，文字只供示範版面之用，並非教會的正式資料。",
+      "placeholder_tag": "即將推出",
+      "all_designs": "全部設計",
+      "lang_zh": "中文",
+      "lang_en": "English",
+      "member_login": "會友登入",
+      "menu": "選單",
+      "home": "首頁",
+      "give": "奉獻",
+      "new_here": "新朋友",
+      "first_time": "第一次來？",
+      "service_times": "聚會時間",
+      "sunday_services": "主日崇拜",
+      "this_sunday": "本主日",
+      "every_sunday": "每個星期日",
+      "watch_sermons": "講道重溫",
+      "latest_sermon": "最新講道",
+      "this_week_bulletin": "本週週報",
+      "latest_news": "最新消息",
+      "more_news": "全部消息",
+      "events": "活動日曆",
+      "booking": "場地預約",
+      "contact": "聯絡我們",
+      "address": "地址",
+      "phone": "電話",
+      "email": "電郵",
+      "office_hours": "辦公時間",
+      "follow_us": "社交平台",
+      "map": "在地圖上查看",
+      "more": "了解更多",
+      "details": "詳情",
+      "visitor_form": "新朋友表格",
+      "sitemap": "網站內容",
+      "about_church": "我們的教會",
+      "quick_links": "快速連結",
+      "forms_downloads": "表格及文件下載",
+      "year_theme": "年度主題",
+      "back_top": "回到頁頂",
+      "facebook_zh": "Facebook（中文）",
+      "facebook_en": "Facebook（English）",
+      "read_bulletin": "閱讀週報",
+      "all_sermons": "全部講道影片",
+      "worship_in": "崇拜"
+    },
+    "en": {
+      "demo_bar": "Demo site 示範網站",
+      "demo_bar_note": "Not the official Holy Word Church website",
+      "demo_tag": "Demo content",
+      "photo_omitted": "Photo omitted",
+      "demo_page": "This page is demo content. The text only illustrates the layout and is not official church information.",
+      "placeholder_tag": "Coming soon",
+      "all_designs": "All designs",
+      "lang_zh": "中文",
+      "lang_en": "English",
+      "member_login": "Member Login",
+      "menu": "Menu",
+      "home": "Home",
+      "give": "Give",
+      "new_here": "I'm New",
+      "first_time": "First time here?",
+      "service_times": "Service Times",
+      "sunday_services": "Sunday Services",
+      "this_sunday": "This Sunday",
+      "every_sunday": "Every Sunday",
+      "watch_sermons": "Watch Sermons",
+      "latest_sermon": "Latest Sermon",
+      "this_week_bulletin": "This Week's Bulletin",
+      "latest_news": "Latest News",
+      "more_news": "All news",
+      "events": "Events Calendar",
+      "booking": "Venue Booking",
+      "contact": "Contact Us",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "office_hours": "Office Hours",
+      "follow_us": "Follow Us",
+      "map": "View on map",
+      "more": "Learn more",
+      "details": "Details",
+      "visitor_form": "Visitor Form",
+      "sitemap": "Site Map",
+      "about_church": "Our Church",
+      "quick_links": "Quick Links",
+      "forms_downloads": "Forms & Downloads",
+      "year_theme": "Theme of the Year",
+      "back_top": "Back to top",
+      "facebook_zh": "Facebook (中文)",
+      "facebook_en": "Facebook (English)",
+      "read_bulletin": "Read the bulletin",
+      "all_sermons": "All sermon videos",
+      "worship_in": "Service"
+    }
+  }
+}

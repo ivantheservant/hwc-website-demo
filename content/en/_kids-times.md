@@ -1,0 +1,3 @@
+- Children (English): 10:45 AM
+- Children (Mandarin): 2:30 PM
+- Children (North Shore / Cantonese): 3:30 PM

@@ -1,0 +1,67 @@
+/* 四款版面共用的基本樣式：示範標示、表格、嵌入內容。各款的外觀在各自的 CSS。 */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { margin: 0; }
+img { max-width: 100%; height: auto; display: block; }
+iframe { border: 0; width: 100%; display: block; }
+figure { margin: 0; }
+a { color: inherit; }
+
+/* 頁頂細小的示範標示 */
+.demo-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; padding: 4px 16px; background: #1d2126; color: #e9ecef;
+  font: 12px/1.5 "Noto Sans TC", "PingFang HK", "Microsoft JhengHei", system-ui, sans-serif; letter-spacing: .03em; }
+.demo-bar strong { font-weight: 700; color: #fff; }
+.demo-bar-note { opacity: .75; }
+.demo-bar-switch { margin-left: auto; display: flex; gap: 2px; align-items: center; }
+.demo-bar-switch a { color: #e9ecef; text-decoration: none; padding: 1px 8px; border-radius: 3px; }
+.demo-bar-switch a:first-child { margin-right: 6px; text-decoration: underline; }
+.demo-bar-switch a:hover { background: rgba(255, 255, 255, .16); }
+.demo-bar-switch a.on { background: #fff; color: #1d2126; font-weight: 700; }
+
+/* 「示範內容」標籤及示範段落 */
+.demo-tag { display: inline-block; font: 700 11px/1.4 "Noto Sans TC", "PingFang HK", "Microsoft JhengHei", system-ui, sans-serif; letter-spacing: .06em;
+  padding: 2px 8px; border-radius: 3px; background: #fff3cd; color: #6b4e00; border: 1px solid #e6cf7a; vertical-align: middle; white-space: nowrap; }
+.demo-tag.soon { background: #e7f1ff; color: #0b3d75; border-color: #a9c8f0; }
+.blk-demo { position: relative; margin: 28px 0; padding: 26px 20px 8px; border: 1px dashed #c9b45f; border-radius: 6px; }
+.blk-demo > .demo-tag { position: absolute; top: -10px; left: 14px; }
+.blk-demo > :nth-child(2) { margin-top: 0; }
+
+.table-wrap { overflow-x: auto; margin: 18px 0; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; vertical-align: top; padding: 9px 12px; }
+.map iframe { height: 340px; }
+.video { aspect-ratio: 16 / 9; margin: 20px 0; }
+.video iframe { height: 100%; }
+.embed iframe { height: 78vh; min-height: 480px; }
+.imgs { display: grid; gap: 12px; margin: 18px 0; }
+.imgs-2 { grid-template-columns: repeat(2, 1fr); }
+.imgs-3 { grid-template-columns: repeat(3, 1fr); }
+.imgs-4 { grid-template-columns: repeat(4, 1fr); }
+.imgs img { width: 100%; }
+/* 「相片從略」：沒有使用相片的位置，用圖案代替 */
+.ph { display: block; position: relative; width: 100%; aspect-ratio: 16 / 10; border-radius: 6px;
+  background: repeating-linear-gradient(135deg, #edebe5 0 14px, #e4e1d9 14px 28px); }
+.ph::after { content: attr(data-label); position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center;
+  font: 500 13px/1.4 "Noto Sans TC", "PingFang HK", "Microsoft JhengHei", system-ui, sans-serif; color: #6f6c64; letter-spacing: .08em; }
+.btns { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* 主選單的運作方式（桌面：滑鼠移到項目上顯示下拉選單；手機：按「選單」展開）。外觀由各款 CSS 決定。 */
+.nav { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; }
+.nav > li { position: relative; }
+.nav a { text-decoration: none; display: block; }
+.nav .sub { list-style: none; margin: 0; padding: 8px 0; position: absolute; top: 100%; left: 0; min-width: 200px; display: none; z-index: 50; }
+.nav li.has-sub:hover > .sub, .nav li.has-sub:focus-within > .sub { display: block; }
+.nav-toggle { display: none; align-items: center; gap: 8px; cursor: pointer; font: inherit; }
+.nav-toggle-icon { width: 18px; height: 2px; background: currentColor; box-shadow: 0 -6px 0 currentColor, 0 6px 0 currentColor; }
+@media (max-width: 960px) {
+  .nav-toggle { display: inline-flex; }
+  #site-nav { display: none; }
+  .nav-open #site-nav { display: block; }
+  .nav { flex-direction: column; align-items: stretch; }
+  .nav .sub { position: static; display: block; min-width: 0; box-shadow: none; border: 0; }
+}
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 640px) {
+  .demo-bar-note { display: none; }
+  .imgs-3, .imgs-4 { grid-template-columns: repeat(2, 1fr); }
+}

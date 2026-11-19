@@ -1,0 +1,74 @@
+{
+  "_說明": "文件下載清單，中英文共用。group 是新設計使用的分類；清單次序沿用現有中文頁。only 註明該項目在現有網站只出現在哪一種語言的頁面。檔案存放在教會的 Google Drive，這裏只記錄連結。",
+  "groups": {
+    "magazine": { "zh": "紀念特刊", "en": "Anniversary Magazines" },
+    "testimony": { "zh": "浸禮見證集", "en": "Baptism Testimonies" },
+    "season": { "zh": "節期", "en": "Seasons" },
+    "report": { "zh": "年報及會章", "en": "Reports & Rulebook" }
+  },
+  "categories": [
+    {
+      "group": "magazine",
+      "title": { "zh": "三十週年紀念特刊 (2024)", "en": "30th Anniversary Magazine (2024)" },
+      "items": [
+        { "zh": "教會三十周年紀念特刊 「溫情相伴 聖道傳承」", "en": "30th Anniversary Magazine “Love and Legacy” (final)", "url": "https://drive.google.com/file/d/1MHt3Qnq0t_6G1ZRPO7EQlv526CQNvUBS/view?usp=drive_link" }
+      ]
+    },
+    {
+      "group": "season",
+      "only": "zh",
+      "title": { "zh": "將臨期", "en": "Advent" },
+      "items": [
+        { "zh": "將臨期 2020 - 靈修操練", "en": "Advent 2020 – Devotional Exercises (Chinese)", "url": "https://drive.google.com/file/d/1xoiyCp6bZVukAN-To2LBfaiAH52Xt8mr/view?usp=sharing" }
+      ]
+    },
+    {
+      "group": "magazine",
+      "title": { "zh": "廿五週年紀念特刊", "en": "25th Anniversary Magazine" },
+      "items": [
+        { "zh": "教會廿五週年紀念特刊「作鹽作光」(單頁版)", "en": "25th Anniversary Magazine “Be the Salt and Light” (Singe Page Version)", "url": "https://drive.google.com/file/d/1tcLgVG5yOCbb_hMCycDYzQeAcWY8kwY_/view?usp=sharing" },
+        { "zh": "教會廿五週年紀念特刊「作鹽作光」(雙頁版)", "en": "25th Anniversary Magazine “Be the Salt and Light” (Spread Version)", "url": "https://drive.google.com/file/d/1iEqJLpIBHLR-OE06ih5gXw2wDZqNorYj/view?usp=sharing" }
+      ]
+    },
+    {
+      "group": "testimony",
+      "title": { "zh": "得救見證集", "en": "Baptism Testimonies" },
+      "items": [
+        { "zh": "第 59屆浸禮見證集", "en": "April 2026 - 59th Baptism Testimony", "url": "https://drive.google.com/file/d/1HlSSDoPuBx3y53wA8Pt91xQSlJE_0Z2O/view?usp=drive_link" },
+        { "zh": "第 58屆浸禮見證集", "en": "October 2025 - 58th Baptism Testimony", "url": "https://drive.google.com/file/d/1BGf4Z2VXokw0WNme8fFkWJXZc7XxECld/view?usp=sharing" },
+        { "zh": "第 57屆浸禮見證集", "en": "April 2025 - 57th Baptism Testimony", "url": "https://drive.google.com/file/d/125T6zPYWlchdHE_ELhha_BfvF3xzGMd0/view?usp=drive_link" },
+        { "zh": "第 56屆浸禮見證集", "en": "October 2024 - 56th Baptism Testimony", "url": "https://drive.google.com/file/d/1N3Xqa-Rdxd7pvHDE9gdFlrA9eiMLcG1S/view?usp=drive_link" },
+        { "zh": "第 55 屆得救見證集", "en": "April 2024 - 55th Baptism Testimony", "url": "https://drive.google.com/file/d/1XzZPuR8SctbR2XRxSeu81e0Hb182NfHa/view?usp=drive_link" },
+        { "zh": "第 54屆得救見證集", "en": "October 2023 - 54th Baptism Testimony", "url": "https://drive.google.com/file/d/1CwBkFc-yYkbKc8Uar2s_BnYeE_Phgmo8/view?usp=drive_link" },
+        { "zh": "第 52 屆浸禮見證集", "en": "October 2022 - 52nd Baptism Testimony", "url": "https://drive.google.com/file/d/1i1IUcsP5bbZKXy23EY9pvVZA_MUJAcPe/view?usp=sharing" },
+        { "zh": "第 51屆浸禮見證集", "en": "April 2021 - 51st Baptism Testimony", "url": "https://drive.google.com/file/d/1chngYZKiHy094dBoL3Cv6NmK184FNtrZ/view" },
+        { "zh": "第 49屆浸禮見證集", "en": "October 2019 - 49th Baptism Testimony", "url": "https://drive.google.com/file/d/1siY3jYOAedi3QYD-C_n8x4k1envxrIfv/view?usp=sharing" }
+      ]
+    },
+    {
+      "group": "report",
+      "title": { "zh": "執事會報告暨部門報告", "en": "Deacon Board Annual Reports and Departmental Reports" },
+      "items": [
+        { "zh": "2025 - 2026年執事會報告各部門報告", "en": "2025 - 2026 Annual Report and Departmental Report", "url": { "zh": "https://drive.google.com/file/d/14pXpYZTvlOSl0E8XBZPWzORtiUDZgU9D/view?usp=drive_link", "en": "https://drive.google.com/file/d/1d0Ze-D6ug3xDkcepYKYoD2tTiknLLKvL/view?usp=drive_link" } },
+        { "zh": "2024 - 2025年執事會報告各部門報告", "en": "2024 - 2025 Annual Report and Departmental Report", "url": { "zh": "https://drive.google.com/file/d/1H68h-2ITX_O4ENsfTOfyunkH0iSiBaXy/view?usp=sharing", "en": "https://drive.google.com/file/d/10QrogJlgfxWsXvihXasZyRY1566HoRbi/view?usp=sharing" } },
+        { "zh": "2023 - 2024年執事會報告各部門報告", "en": "2023 - 2024 Annual Report and Departmental Report", "url": { "zh": "https://drive.google.com/file/d/1oHe2ZIiGh0lIuhNJ6o53iFXYDB1UvdWj/view?usp=drive_link", "en": "https://drive.google.com/file/d/1wsbVvw3CBPloYGd-wdoaAUtROq4SPW_B/view?usp=drive_link" } }
+      ]
+    },
+    {
+      "group": "report",
+      "title": { "zh": "慈善信託基金 週年報告", "en": "Trust Report" },
+      "items": [
+        { "zh": "慈善信託基金 週年報告2025- -2026", "en": "2025 - 2026 Trust Report", "url": "https://drive.google.com/file/d/1qLmNOLCXp9qgGtx5PdMb6dnd2TcVa1Sl/view?usp=drive_link" },
+        { "zh": "慈善信託基金 週年報告2024- -2025", "en": "2024 - 2025 Trust Report", "url": "https://drive.google.com/file/d/14bivY6wKhAdS8qu4UG_XnEMy9XpJYXk7/view?usp=sharing" },
+        { "zh": "慈善信託基金 週年報告2023 - 2024", "en": "2023 - 2024 Trust Report", "url": "https://drive.google.com/file/d/1Mww0MbGBlF44R5Y2K7W4HH1PzaW8bQM7/view?usp=drive_link" }
+      ]
+    },
+    {
+      "group": "report",
+      "title": { "zh": "教會會章", "en": "Rulebook" },
+      "items": [
+        { "zh": "會章2011", "en": "Rulebook 2011", "url": "https://drive.google.com/file/d/1RUuxYRViinddCx2mc5bi2z5m0WFQyjsx/view?usp=drive_link" }
+      ]
+    }
+  ]
+}

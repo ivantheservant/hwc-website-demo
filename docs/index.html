@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>聖道堂網站示範｜HWC Website Demo</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans TC","PingFang HK","Microsoft JhengHei",system-ui,sans-serif;background:#f4f2ee;color:#22262b;line-height:1.7}
+.demo{background:#22262b;color:#fff;font-size:12px;padding:5px 16px;letter-spacing:.04em}
+main{max-width:1080px;margin:0 auto;padding:48px 20px 64px}
+h1{font-size:30px;line-height:1.3;margin:0 0 8px}
+.lead{margin:0 0 36px;max-width:46em;color:#4a5058}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.grid .card:first-child{grid-column:1/-1}
+.card{background:#fff;border:1px solid #dedad2;border-radius:10px;padding:22px 24px 24px}
+.swatches{display:flex;gap:6px;margin-bottom:14px}
+.swatches span{width:34px;height:34px;border-radius:50%;border:1px solid rgba(0,0,0,.12)}
+.path{margin:0;font-family:Consolas,Menlo,monospace;font-size:13px;color:#6b7078}
+h2{margin:2px 0 6px;font-size:22px;line-height:1.35}
+h2 small{font-size:14px;font-weight:400;color:#6b7078;margin-left:10px}
+.one{margin:0 0 6px}
+.count{margin:0 0 16px;font-size:14px;color:#6b7078}
+.links{margin:0;display:flex;flex-wrap:wrap;gap:10px}
+.links a{display:inline-block;padding:7px 16px;border-radius:6px;border:1px solid #22262b;color:#22262b;text-decoration:none;font-size:15px}
+.links a.go{background:#22262b;color:#fff}
+.links a:hover{opacity:.8}
+.notes{margin-top:36px;font-size:14px;color:#4a5058}
+.notes li{margin-bottom:4px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}h1{font-size:25px}main{padding-top:32px}}
+</style>
+</head>
+<body>
+<div class="demo">示範網站 Demo　並非聖道堂正式網站</div>
+<main>
+<h1>中國佈道會奧克蘭聖道堂網站示範</h1>
+<p class="lead">這裏有五個版本：現有網站的內容整理版，以及四款新設計。五個版本使用同一份內容，可以用每頁頁頂的「現有｜A｜B｜C｜D」在同一頁之間切換比較。</p>
+<div class="grid">
+<article class="card">
+<div class="swatches"><span style="background:#ffffff"></span><span style="background:#333333"></span><span style="background:#9a9a9a"></span></div>
+<p class="path">/current/</p>
+<h2>現有網站<small>Current site</small></h2>
+<p class="one">現有網站的內容及結構，樸素版面，作備份對照。</p>
+<p class="count">中文 11 頁、英文 11 頁，另加入口頁</p>
+<p class="links"><a class="go" href="current/index.html">入口頁</a><a href="current/chi/welcome.html">中文</a><a href="current/en/welcome.html">English</a></p>
+</article>
+<article class="card">
+<div class="swatches"><span style="background:#FBF7F2"></span><span style="background:#C8553D"></span><span style="background:#2F3E46"></span><span style="background:#E9C46A"></span></div>
+<p class="path">/a/</p>
+<h2>方向 A　歡迎之家<small>Welcome Home</small></h2>
+<p class="one">相片主導，溫暖親切，先照顧第一次來的人。</p>
+<p class="count">中文 19 頁、英文 19 頁</p>
+<p class="links"><a class="go" href="a/zh/index.html">中文首頁</a><a href="a/en/index.html">English</a></p>
+</article>
+<article class="card">
+<div class="swatches"><span style="background:#F7F3EA"></span><span style="background:#14274E"></span><span style="background:#B08D57"></span><span style="background:#1F2430"></span></div>
+<p class="path">/b/</p>
+<h2>方向 B　莊重典雅<small>Rooted</small></h2>
+<p class="one">文字主導，襯線字配深藍，突出信仰傳承及三語一家。</p>
+<p class="count">中文 19 頁、英文 19 頁</p>
+<p class="links"><a class="go" href="b/zh/index.html">中文首頁</a><a href="b/en/index.html">English</a></p>
+</article>
+<article class="card">
+<div class="swatches"><span style="background:#FFFFFF"></span><span style="background:#0F766E"></span><span style="background:#F59E0B"></span><span style="background:#F3F4F6"></span></div>
+<p class="path">/c/</p>
+<h2>方向 C　教會生活入口<small>Church Hub</small></h2>
+<p class="one">功能主導，卡片式，為會友每週使用而設。</p>
+<p class="count">中文 19 頁、英文 19 頁</p>
+<p class="links"><a class="go" href="c/zh/index.html">中文首頁</a><a href="c/en/index.html">English</a></p>
+</article>
+<article class="card">
+<div class="swatches"><span style="background:#F6F2EC"></span><span style="background:#1F1626"></span><span style="background:#5B2E72"></span><span style="background:#CDB4EE"></span></div>
+<p class="path">/d/</p>
+<h2>方向 D　當代敬拜<small>Contemporary</small></h2>
+<p class="one">深色相片配超大粗體字，全螢幕選單，風格當代，吸引年輕一代及新朋友。</p>
+<p class="count">中文 19 頁、英文 19 頁</p>
+<p class="links"><a class="go" href="d/zh/index.html">中文首頁</a><a href="d/en/index.html">English</a></p>
+</article>
+</div>
+<ul class="notes">
+<li>標明「示範內容」的文字並非教會的正式資料，只用來示範版面。</li>
+<li>「會友登入」「活動日曆」「場地預約」暫時只放按鈕位置。</li>
+<li>這個網站不會被搜尋引擎收錄。教會的正式網站是 <a href="https://holywordchurch.org.nz">holywordchurch.org.nz</a>。</li>
+</ul>
+</main>
+</body>
+</html>
